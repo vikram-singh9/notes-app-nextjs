@@ -1,8 +1,11 @@
 import React from 'react'
+import Note from './components/notes'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Note/>
+    </div>
   )
 }
 
