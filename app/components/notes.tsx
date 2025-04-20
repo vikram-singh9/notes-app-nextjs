@@ -115,8 +115,8 @@ export default function Note(){
 
     return (
         <div className="flex flex-col h-screen bg-background text-foreground">
-          <header className="bg-muted p-4 shadow">
-            <h1 className="text-2xl font-bold">Note Taker</h1>
+          <header className="bg-blur p-4 shadow">
+            <h1 className="text-2xl font-bold">Add Notes and Track</h1>
           </header>
           <main className="flex-1 overflow-auto p-4">
             <div className="mb-4">
